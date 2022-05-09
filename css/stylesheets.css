@@ -1,0 +1,14 @@
+.parent{
+width: 450px;
+height: 450px;
+padding: 20px;
+border: 3px solid black;
+margin: 20px;
+}
+.view{
+margin-left: 300px;
+padding: -20px 30px;
+}
+.header{
+background-color: blue;
+}

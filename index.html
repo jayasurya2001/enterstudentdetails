@@ -1,0 +1,76 @@
+<html>
+<!DOCTYPE HTML>
+<html>
+<head>
+  <center><title>STUDENT DETAILS</title></center>
+  <link rel="stylesheet" href="css/stylesheets.css">
+<style>
+.button-logout {
+            position: relative;
+            margin-top: -550px;
+            margin-right: 20px;
+            float: right;
+            text-decoration: none;
+            border: transparent;
+            border-radius: 15px;
+            background-color: #000000;
+            padding: 5px 30px 5px 30px;
+            color: white;
+            transition: 0.5s;
+        }
+.button-logout:hover {
+            background-color: #D9ddd4;
+            color: black;
+}
+.submit{
+	    
+	    text-decoration: none;
+            border: transparent;
+            border-radius: 15px;
+            background-color: #000000;
+            padding: 10px 10px 10px 10px;
+            color: white;
+            transition: 0.5s;
+}
+.submit:hover {
+            background-color: #D9ddd4;
+            color: black;
+}
+</style>
+</head>
+<body>
+<div>
+<center><h1>Enter Student Details</h1></center>
+</div>
+<center><div  class ="parent">
+ <form action="main.php" method="POST">
+  <center><table>
+   <tr>
+    <td><h2></br>Enter Name :</td></h2>
+    <td><input type="text" name="name" required></td>
+   </tr>
+   <tr>
+    <td><h2></br>Enter USN:</td></h2>
+    <td><input type="usn" name="usn" required></td>
+   </tr>
+   <tr>
+    <td><h2></br>Enter Address :</td></h2></br>
+    <td><input type="address" name="address" required></td>
+   </tr> 
+   <tr>
+    <td><h2></br>Phone no :</td></h2></br>
+    <td>
+     <input type="phone" name="phone" required>
+    </td>
+   </tr>
+   <tr>
+    <td><input class ="submit" type ="submit" value ="SUBMIT" name="submit"></td>
+   </tr>
+  </table></center>
+</form>
+</div></center>
+<div>
+        <a class="button-logout" href="newindex.html" role="button">View</a>
+</div>
+</body>
+</html>
